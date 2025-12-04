@@ -1,0 +1,8 @@
+haz_esto_si
+o_haz_esto
+haz_esto_mientras
+repite
+hasta
+comienzo
+final
+mostrar
