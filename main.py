@@ -7,7 +7,7 @@ INPUT_FILE = "input/input.txt"
 OUTPUT_FILE = "output/output.txt"
 
 # Expresión regular de los caracteres válidos
-VALID_CHAR_REGEX = re.compile(r"^[a-z][a-zA-Z0-9_]*$")
+VALID_CHAR_REGEX = re.compile(r"^[a-zA-Z0-9][a-zA-Z0-9_]*$")
 
 # Inicializa diccionario
 def load_dictionary(path):
