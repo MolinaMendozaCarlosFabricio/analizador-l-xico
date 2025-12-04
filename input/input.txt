@@ -1,0 +1,67 @@
+comienzo
+
+haz_esto_si condicionPrincipal mostrar mensajeInicial
+o_haz_esto accionAlternativa_1 mostrar avisoGeneral
+
+haz_esto_mientras contador repetirProceso mostrar estadoActual
+repite incrementoVariable hasta limiteSuperior mostrar progreso
+
+haz_esto_si condicionSecundaria mostrar mensajeSecundario
+o_haz_esto accionAlternativa_2 mostrar advertenciaGeneral
+
+comienzo mostrar inicioBloquePrincipal
+haz_esto_mientras cicloPrincipal mostrar estadoCiclo
+repite actualizarDatos hasta condicionDetenida mostrar finCiclo
+
+final mostrar cierreBloquePrincipal
+
+haz_esto_si verificarEntrada mostrar mensajeEntradaValida
+o_haz_esto tratamientoError mostrar mensajeEntradaInvalida
+
+haz_esto_mientras indicePrincipal mostrar avanceIndice
+repite aumentarIndice hasta valorMaximo mostrar finIndice
+
+mostrar salidaGeneral
+
+comienzo mostrar inicioSegmento_A
+haz_esto_si variableActiva mostrar estadoVariable
+o_haz_esto variableInactiva mostrar estadoInactivo
+
+repite aumentarContador hasta metaAlcanzada mostrar progresoContador
+haz_esto_mientras contadorAux mostrar estadoAuxiliar
+
+final mostrar salidaSegmento_A
+
+comienzo mostrar inicioSegmento_B
+haz_esto_si usuarioAutorizado mostrar accesoConcedido
+o_haz_esto usuarioDenegado mostrar accesoDenegado
+
+haz_esto_mientras numeroIntentos mostrar intentoActual
+repite sumarIntento hasta maxIntentos mostrar finIntentos
+
+mostrar finSegmento_B
+final
+
+comienzo mostrar inicioPruebasExtensas
+haz_esto_si verificacionInicial mostrar resultadoInicial
+o_haz_esto rutaAlterna mostrar accionAlterna
+
+haz_esto_mientras calculoTemporal mostrar tiempoActual
+repite modificarTiempo hasta limiteTiempo mostrar resultadoTiempo
+
+mostrar finalPruebas
+
+final
+
+dato_invalido$  
+¿pregunta?  
+número123
+invalido
+123*abc
+variable-invalida
+
+x1
+datoTemporal_2025
+CONTROL1
+VariablePrueba
+valorMAXIMO
