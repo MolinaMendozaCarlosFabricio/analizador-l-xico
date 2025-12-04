@@ -14,9 +14,6 @@ venv/
 .env/
 .env
 
-# Ignrar base de datos SQLite
-*.db
-*.db-journal
-
-# Config
-src/config/userConfig.json
+# Archivos de entrada y salida
+input/input.txt
+output/output.txt

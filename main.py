@@ -26,11 +26,11 @@ def delete_punctuation(word):
     return word.strip(string.punctuation + '¿¡')
 
 # Clasifica las palabras
-def classificate(word):
+def classificate(word, dictionary):
     if word == "":
         return None
-    if word in DICTIONARY:
-        return(DICTIONARY[word], word)
+    if word in dictionary:
+        return(dictionary[word], word)
     if VALID_CHAR_REGEX.match(word):
         return ("IDENTIFICAR", word)
     return ("SINTAXYS_ERROR", word)
